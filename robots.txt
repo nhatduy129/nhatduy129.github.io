@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://nhatduy129.github.io/sitemap.xml
