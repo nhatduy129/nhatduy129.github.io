@@ -3,50 +3,91 @@
   
   <url>
     <loc>https://nhatduy129.github.io/categories/</loc>
-    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/con-cac/</loc>
-    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
+    <loc>https://nhatduy129.github.io/post/create-a-custom-view-in-ios-everything-needs-to-know/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/custom-view/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/categories/ios/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/ios/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nhatduy129.github.io/</loc>
-    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nhatduy129.github.io/post/</loc>
-    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nhatduy129.github.io/tags/</loc>
-    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/categories/h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh/</loc>
-    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://nhatduy129.github.io/tags/concurrency/</loc>
+    <lastmod>2018-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/tags/unix/</loc>
-    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://nhatduy129.github.io/post/concurrency-in-ios-part-4-three-problems/</loc>
+    <lastmod>2018-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/the-first-post/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <loc>https://nhatduy129.github.io/post/concurrency-in-ios-part-3-gcd-nsoperation/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/post/concurrency-in-ios-part-2-serial-and-concurrent-queue/</loc>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/post/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</loc>
+    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Nhat Duy&#39;s Blog</title>
-    <link>https://nhatduy129.github.io/post/</link>
-    <description>Recent content in Posts on Nhat Duy&#39;s Blog</description>
+    <title>concurrency on Nhat Duy&#39;s Blog</title>
+    <link>https://nhatduy129.github.io/tags/concurrency/</link>
+    <description>Recent content in concurrency on Nhat Duy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nhatduy129.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nhatduy129.github.io/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Create a custom view in iOS: Everything needs to know</title>
-      <link>https://nhatduy129.github.io/post/create-a-custom-view-in-ios-everything-needs-to-know/</link>
-      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://nhatduy129.github.io/post/create-a-custom-view-in-ios-everything-needs-to-know/</guid>
-      <description>1. Introduction In iOS programming, we usually need to create custom views. We create them not only for reused, in some cases it also help us move a lot of code to other class. In this article, I will share you guys everything we need to know when we create a custom view. What is difference between when we create with nib file and without it. OK, let go&amp;hellip;</description>
-    </item>
     
     <item>
       <title>Concurrency in iOS part 4 - Three problems</title>

@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Nguyễn Vũ Nhật Duy</title>
+    <title>Tags on Nhat Duy&#39;s Blog</title>
     <link>https://nhatduy129.github.io/tags/</link>
-    <description>Recent content in Tags on Nguyễn Vũ Nhật Duy</description>
+    <description>Recent content in Tags on Nhat Duy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nhatduy129.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>unix</title>
-      <link>https://nhatduy129.github.io/tags/unix/</link>
-      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      <title>custom view</title>
+      <link>https://nhatduy129.github.io/tags/custom-view/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nhatduy129.github.io/tags/unix/</guid>
+      <guid>https://nhatduy129.github.io/tags/custom-view/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>https://nhatduy129.github.io/tags/ios/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>concurrency</title>
+      <link>https://nhatduy129.github.io/tags/concurrency/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/concurrency/</guid>
       <description></description>
     </item>
     

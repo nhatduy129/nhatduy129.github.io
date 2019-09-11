@@ -1,32 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nguyễn Vũ Nhật Duy</title>
+    <title>Nhat Duy&#39;s Blog</title>
     <link>https://nhatduy129.github.io/</link>
-    <description>Recent content on Nguyễn Vũ Nhật Duy</description>
+    <description>Recent content on Nhat Duy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nhatduy129.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Con cac?</title>
-      <link>https://nhatduy129.github.io/post/con-cac/</link>
-      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Create a custom view in iOS: Everything needs to know</title>
+      <link>https://nhatduy129.github.io/post/create-a-custom-view-in-ios-everything-needs-to-know/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nhatduy129.github.io/post/con-cac/</guid>
-      <description>1  let a = 5  </description>
+      <guid>https://nhatduy129.github.io/post/create-a-custom-view-in-ios-everything-needs-to-know/</guid>
+      <description>1. Introduction In iOS programming, we usually need to create custom views. We create them not only for reused, in some cases it also help us move a lot of code to other class. In this article, I will share you guys everything we need to know when we create a custom view. What is difference between when we create with nib file and without it. OK, let go&amp;hellip;</description>
     </item>
     
     <item>
-      <title>My name is?</title>
-      <link>https://nhatduy129.github.io/post/the-first-post/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Concurrency in iOS part 4 - Three problems</title>
+      <link>https://nhatduy129.github.io/post/concurrency-in-ios-part-4-three-problems/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nhatduy129.github.io/post/the-first-post/</guid>
-      <description> My name is Duy I&amp;rsquo;m software engineering I&amp;rsquo;m gay </description>
+      <guid>https://nhatduy129.github.io/post/concurrency-in-ios-part-4-three-problems/</guid>
+      <description>This article is final part of serial concurrency tutorial, if you have not read part 1, part 2 and part 3, I recommend you read them first.
+In this article, I will show you 3 problems that you must pay attention when you use concurrency. Those are race conditions, deadlock and priority inversion.
+Let&amp;rsquo;s go&amp;hellip;
+1. Race conditions Example you have two threads executing, they are both trying to modify an object&amp;rsquo;s count variable.</description>
+    </item>
+    
+    <item>
+      <title>Concurrency in iOS part 3 - GCD and NSOperation</title>
+      <link>https://nhatduy129.github.io/post/concurrency-in-ios-part-3-gcd-nsoperation/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/post/concurrency-in-ios-part-3-gcd-nsoperation/</guid>
+      <description>This article is part 3 of serial concurrency tutorial, if you have not read part 1 and part 2, I recommend you read them first.
+In this article, I will show you GCD and NSOperation. Advantages and disadvantages of them.
+Common&amp;hellip;
+1. Grand Central Dispatch (GCD) GCD is lowest level to support run the tasks concurrently. It is easy for impletation. Basically, we use GCD in most cases.
+There are 3 kinds of queue in GCD.</description>
+    </item>
+    
+    <item>
+      <title>Concurrency in iOS part 2 - Serial and concurrent queue</title>
+      <link>https://nhatduy129.github.io/post/concurrency-in-ios-part-2-serial-and-concurrent-queue/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/post/concurrency-in-ios-part-2-serial-and-concurrent-queue/</guid>
+      <description>This article is part 2 of serial concurrency tutorial, if you have not read part 1, I recommend you read it first.
+In this article, I will show you serial queue and concurrent queue. However, before we move on to them, we also need to know about synchronous and asynchronous.
+1. Synchronous and asynchronous The tasks may either perform synchronous or asynchronous.
+When the task is running as synchronous, your app will wait and lock current run loop until the task finishes.</description>
+    </item>
+    
+    <item>
+      <title>Concurrency in iOS part 1 - Introduction to CPU, process and thread</title>
+      <link>https://nhatduy129.github.io/post/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/post/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</guid>
+      <description>Before we learn deeply about concurrency in iOS, I will briefly show you the basic related knowledge. That are CPU, process and thread.
+1. What is the CPU used in iPhone? Apple used many different CPU for their phone.
+Example:
+iPhone 6, 6S used dual core
+iPhone 7, 7S used 4-core
+iphone 8, 8S used 6-core
+iPhone XS, XS Max, XR used 8-core
+2. What is process? To meet the demand running many applications at the same time.</description>
     </item>
     
   </channel>
