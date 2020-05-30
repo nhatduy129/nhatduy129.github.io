@@ -50,7 +50,7 @@
 
 <meta itemprop="datePublished" content="2018-08-19T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-08-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="268">
+<meta itemprop="wordCount" content="387">
 
 
 
@@ -141,6 +141,8 @@
 <li><a href="#1-introduction">1. Introduction</a></li>
 <li><a href="#2-create-custom-view-without-nib">2. Create custom view without Nib.</a></li>
 <li><a href="#3-create-custom-uitableviewcell">3. Create Custom UITableViewCell</a></li>
+<li><a href="#4-create-custom-uicollectionviewcell">4. Create Custom UICollectionViewCell</a></li>
+<li><a href="#5-create-custom-uiviewcontroller">5. Create Custom UIViewController</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -193,38 +195,76 @@ text-align: center;
 
 <h2 id="2-create-custom-view-without-nib">2. Create custom view without Nib.</h2>
 
-<p>There are 2 cases:
-    - Put view into storyboard
-        + It will call required init?(coder aDecoder: NSCoder), then it calls awakeFromNib()
-        + It will not call override init(frame: CGRect)
-    - Create view programmingly
-        + It will call override init(frame: CGRect)
-        + It does not call any other functions, even awakeFromNib()
+<p>There are 2 cases:<br />
+    - Put view into storyboard<br />
+        + It will call required init?(coder aDecoder: NSCoder), then it calls awakeFromNib()<br />
+        + It will not call override init(frame: CGRect)<br />
+    - Create view programmingly<br />
+        + It will only call override init(frame: CGRect) if you init with frame, it will only call init(coder: &hellip;) if you create view by init()
+        + It does not call any other functions, even awakeFromNib()<br />
 Note:
-- In case we have outlet, outlet can be used in awakeFromNib function. We can use outlet before or after super.awakeFromNib(), but outlets are nil in all of function call before awakeFromNib(). See more about UIView lifecycle <a href="https://bradbambara.wordpress.com/2015/01/18/object-life-cycle-uiview/">here</a>.
+- In case we have outlet, outlet can be used in awakeFromNib function. We can use outlet before or after super.awakeFromNib(), but outlets are nil in all of function call before awakeFromNib(). See more about UIView lifecycle <a href="https://bradbambara.wordpress.com/2015/01/18/object-life-cycle-uiview/">here</a>.<br />
 - We cannot create custom view with nib. Nib must go with UIViewController or UITableViewCell, UICollectionViewCell.</p>
 
 <h2 id="3-create-custom-uitableviewcell">3. Create Custom UITableViewCell</h2>
 
-<p>There are 2 cases:
-    - Register cell class
-        + Only <code>override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?)</code> is called
-        + <code>required init?(coder aDecoder: NSCoder)</code> and <code>awakeFromNib</code> not be called
-    - Register cell from Nib
-        +
-        +</p>
+<p>There are 2 cases:<br />
+- Register cell class<br />
+        + Only <code>override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?)</code> is called<br />
+        + <code>required init?(coder aDecoder: NSCoder)</code> and <code>awakeFromNib</code> not be called<br />
+    - Register cell from Nib<br />
+        + It call <code>required init?(coder aDecoder: NSCoder)</code> then it call <code>awakeFromNib</code><br />
+        + <code>override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?)</code> not be called</p>
 
-<p>Create view without xib:
-    - Nhúng view vào storyboard
-        + Gọi required init?(coder aDecoder: NSCoder) sau đó gọi awakeFromNib()
-        + Không gọi override init(frame: CGRect)
-    - Tạo view programmingly
-        + Gọi override init(frame: CGRect)
-        + Không gọi hàm nào khác kể cả awakeFromNib()</p>
+<h2 id="4-create-custom-uicollectionviewcell">4. Create Custom UICollectionViewCell</h2>
 
-<p>Create cell collectionView without xib
-    - Gọi</p>
+<p>There are 2 cases:<br />
+    - Register cell class<br />
+        + Only <code>override init(frame: CGRect)</code> is called<br />
+        + <code>required init?(coder aDecoder: NSCoder)</code> and <code>awakeFromNib</code> not be called<br />
+    - Register cell from Nib<br />
+        + It call <code>required init?(coder aDecoder: NSCoder)</code> then it call <code>awakeFromNib</code><br />
+        + <code>override init(frame: CGRect)</code> not be called<br />
+Note: Custom UICollectionViewCell is exactly the same with Custom UITableViewCell</p>
 
+<h2 id="5-create-custom-uiviewcontroller">5. Create Custom UIViewController</h2>
+
+<p>Rule:<br />
+- Do not write init() function.<br />
+- Use loadView() and viewDidLoad() functions instead.<br />
+Example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Swift" data-lang="Swift"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Swift" data-lang="Swift"><span class="kd">class</span> <span class="nc">ZoomImageVC</span><span class="p">:</span> <span class="n">UIViewController</span> <span class="p">{</span>
+    <span class="kr">lazy</span> <span class="kd">var</span> <span class="nv">imageView</span><span class="p">:</span> <span class="n">UIImageView</span> <span class="p">=</span> <span class="p">{...}()</span>
+
+    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">loadView</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kc">super</span><span class="p">.</span><span class="n">loadView</span><span class="p">()</span>
+        <span class="c1">// Do something here, like setup UI</span>
+    <span class="p">}</span>
+
+    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kc">super</span><span class="p">.</span><span class="n">viewDidLoad</span><span class="p">()</span>
+        <span class="c1">// Do viewDidLoad here, like assign image for imageView</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     <div class="post-copyright">
@@ -255,7 +295,11 @@ Note:
             <span class="prev-text nav-mobile">Prev</span>
           </a>
 
-        
+        <a class="next" href="/post/apple-keys-and-certificates/">
+            <span class="next-text nav-default">Apple keys and certificates</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>
@@ -307,7 +351,7 @@ Note:
   <span class="copyright-year">
     &copy; 
     2017 - 
-    2019
+    2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>

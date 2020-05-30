@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>push notification on Nhat Duy&#39;s Blog</title>
+    <link>https://nhatduy129.github.io/tags/push-notification/</link>
+    <description>Recent content in push notification on Nhat Duy&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nhatduy129.github.io/tags/push-notification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Firebase: Push notification in iOS</title>
+      <link>https://nhatduy129.github.io/post/google-firebase-push-notification-in-ios/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/post/google-firebase-push-notification-in-ios/</guid>
+      <description>1. Introduction Push Notifications is a loud and powerful way for our apps to engage with our users. We engage with our users by letting them see values with their very owns eyes. Users see values. Users engage. We can engage our users by letting them know about something important. Perhaps their favorite sport team is about to compete. A flash sale on watermelons is on for 30 minutes. Or there is an important meet up in the desert later this weekend.</description>
+    </item>
+    
+  </channel>
+</rss>

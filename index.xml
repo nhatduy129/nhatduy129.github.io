@@ -6,10 +6,39 @@
     <description>Recent content on Nhat Duy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nhatduy129.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Firebase: Push notification in iOS</title>
+      <link>https://nhatduy129.github.io/post/google-firebase-push-notification-in-ios/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/post/google-firebase-push-notification-in-ios/</guid>
+      <description>1. Introduction Push Notifications is a loud and powerful way for our apps to engage with our users. We engage with our users by letting them see values with their very owns eyes. Users see values. Users engage. We can engage our users by letting them know about something important. Perhaps their favorite sport team is about to compete. A flash sale on watermelons is on for 30 minutes. Or there is an important meet up in the desert later this weekend.</description>
+    </item>
+    
+    <item>
+      <title>Apple Developer Center and App Store Connect</title>
+      <link>https://nhatduy129.github.io/post/apple-developer-center-and-app-store-connect/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/post/apple-developer-center-and-app-store-connect/</guid>
+      <description>1. General First you create an AppleID. You then use that AppleID to register for a Developer program. Registering to a developer program gives access to two types of accounts. Or rather say that you are provided with the access to two different portals for the same account. One is Developer Program portal and another is App Store Connect portal.
+1. Apple Developer Center (Developer Program) 2. App Store Connect Apple change the name iTune Connect to App Store Connect since 2018.</description>
+    </item>
+    
+    <item>
+      <title>Apple keys and certificates</title>
+      <link>https://nhatduy129.github.io/post/apple-keys-and-certificates/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/post/apple-keys-and-certificates/</guid>
+      <description>1. Apple Development This file is used to added to Xcode, then developer can run app on device.
+1. Mobile provision keys (.mobileprovision file) It is created from Apple Developer Center. Go to Profiles -&amp;gt; Select plus button -&amp;gt; Select iOS App Development (Create a provisioning profile&amp;hellip;) -&amp;gt; Select App ID which created from a -&amp;gt; In Select Certificate and Select Devices, select all -&amp;gt; Download .mobileprovision file 2. Certificate Signing Request (.</description>
+    </item>
     
     <item>
       <title>Create a custom view in iOS: Everything needs to know</title>

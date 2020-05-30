@@ -6,10 +6,64 @@
     <description>Recent content in Tags on Nhat Duy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nhatduy129.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>firebase</title>
+      <link>https://nhatduy129.github.io/tags/firebase/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>https://nhatduy129.github.io/tags/ios/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>push notification</title>
+      <link>https://nhatduy129.github.io/tags/push-notification/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/push-notification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>app store connect</title>
+      <link>https://nhatduy129.github.io/tags/app-store-connect/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/app-store-connect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apple</title>
+      <link>https://nhatduy129.github.io/tags/apple/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>role</title>
+      <link>https://nhatduy129.github.io/tags/role/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/role/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>custom view</title>
@@ -17,15 +71,6 @@
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://nhatduy129.github.io/tags/custom-view/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ios</title>
-      <link>https://nhatduy129.github.io/tags/ios/</link>
-      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://nhatduy129.github.io/tags/ios/</guid>
       <description></description>
     </item>
     
