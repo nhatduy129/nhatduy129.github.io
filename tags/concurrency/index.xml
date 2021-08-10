@@ -13,10 +13,10 @@
     
     <item>
       <title>Concurrency in iOS part 4 - Three problems</title>
-      <link>https://nhatduy129.github.io/post/concurrency-in-ios-part-4-three-problems/</link>
+      <link>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-4-three-problems/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nhatduy129.github.io/post/concurrency-in-ios-part-4-three-problems/</guid>
+      <guid>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-4-three-problems/</guid>
       <description>This article is final part of serial concurrency tutorial, if you have not read part 1, part 2 and part 3, I recommend you read them first.
 In this article, I will show you 3 problems that you must pay attention when you use concurrency. Those are race conditions, deadlock and priority inversion.
 Let&amp;rsquo;s go&amp;hellip;
@@ -25,10 +25,10 @@ Let&amp;rsquo;s go&amp;hellip;
     
     <item>
       <title>Concurrency in iOS part 3 - GCD and NSOperation</title>
-      <link>https://nhatduy129.github.io/post/concurrency-in-ios-part-3-gcd-nsoperation/</link>
+      <link>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-3-gcd-nsoperation/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nhatduy129.github.io/post/concurrency-in-ios-part-3-gcd-nsoperation/</guid>
+      <guid>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-3-gcd-nsoperation/</guid>
       <description>This article is part 3 of serial concurrency tutorial, if you have not read part 1 and part 2, I recommend you read them first.
 In this article, I will show you GCD and NSOperation. Advantages and disadvantages of them.
 Common&amp;hellip;
@@ -38,10 +38,10 @@ There are 3 kinds of queue in GCD.</description>
     
     <item>
       <title>Concurrency in iOS part 2 - Serial and concurrent queue</title>
-      <link>https://nhatduy129.github.io/post/concurrency-in-ios-part-2-serial-and-concurrent-queue/</link>
+      <link>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-2-serial-and-concurrent-queue/</link>
       <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nhatduy129.github.io/post/concurrency-in-ios-part-2-serial-and-concurrent-queue/</guid>
+      <guid>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-2-serial-and-concurrent-queue/</guid>
       <description>This article is part 2 of serial concurrency tutorial, if you have not read part 1, I recommend you read it first.
 In this article, I will show you serial queue and concurrent queue. However, before we move on to them, we also need to know about synchronous and asynchronous.
 1. Synchronous and asynchronous The tasks may either perform synchronous or asynchronous.
@@ -50,10 +50,10 @@ When the task is running as synchronous, your app will wait and lock current run
     
     <item>
       <title>Concurrency in iOS part 1 - Introduction to CPU, process and thread</title>
-      <link>https://nhatduy129.github.io/post/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</link>
+      <link>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nhatduy129.github.io/post/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</guid>
+      <guid>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</guid>
       <description>Before we learn deeply about concurrency in iOS, I will briefly show you the basic related knowledge. That are CPU, process and thread.
 1. What is the CPU used in iPhone? Apple used many different CPU for their phone.
 Example:

@@ -2,8 +2,120 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://nhatduy129.github.io/categories/book/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/business/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://nhatduy129.github.io/categories/</loc>
-    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/post/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/real-estate/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/post/books/the-best-real-estate-i-ever-received/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/leadership/</loc>
+    <lastmod>2021-06-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/post/books/mot-doi-quan-tri/</loc>
+    <lastmod>2021-06-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/post/books/tu-thu-lanh-dao/</loc>
+    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/custom-view/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/post/ios/deep-understand-about-core-data/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/categories/ios/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/ios/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/post/books/how-to-talk-to-any-one/</loc>
+    <lastmod>2020-05-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhatduy129.github.io/tags/soft-skill/</loc>
+    <lastmod>2020-05-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -16,35 +128,7 @@
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/google-firebase-push-notification-in-ios/</loc>
-    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nhatduy129.github.io/categories/ios/</loc>
-    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nhatduy129.github.io/tags/ios/</loc>
-    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nhatduy129.github.io/</loc>
-    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nhatduy129.github.io/post/</loc>
+    <loc>https://nhatduy129.github.io/post/ios/google-firebase-push-notification-in-ios/</loc>
     <lastmod>2019-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,13 +136,6 @@
   
   <url>
     <loc>https://nhatduy129.github.io/tags/push-notification/</loc>
-    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nhatduy129.github.io/tags/</loc>
     <lastmod>2019-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -79,14 +156,7 @@
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/apple-developer-center-and-app-store-connect/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nhatduy129.github.io/post/apple-keys-and-certificates/</loc>
+    <loc>https://nhatduy129.github.io/post/ios/apple-keys-and-certificates/</loc>
     <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -100,14 +170,7 @@
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/create-a-custom-view-in-ios-everything-needs-to-know/</loc>
-    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nhatduy129.github.io/tags/custom-view/</loc>
+    <loc>https://nhatduy129.github.io/post/ios/create-a-custom-view-in-ios-everything-needs-to-know/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -121,28 +184,28 @@
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/concurrency-in-ios-part-4-three-problems/</loc>
+    <loc>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-4-three-problems/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/concurrency-in-ios-part-3-gcd-nsoperation/</loc>
+    <loc>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-3-gcd-nsoperation/</loc>
     <lastmod>2018-07-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/concurrency-in-ios-part-2-serial-and-concurrent-queue/</loc>
+    <loc>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-2-serial-and-concurrent-queue/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nhatduy129.github.io/post/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</loc>
+    <loc>https://nhatduy129.github.io/post/ios/concurrency-in-ios-part-1-introduction-to-cpu-process-and-thread/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
