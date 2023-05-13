@@ -16,14 +16,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Nhật Duy" /><meta name="description" content="1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model." /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Nhật Duy" /><meta name="description" content="1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model. A managed object model is made up of entities, attributes and relationships An entity is a class definition in Core Data." /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.57.2 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.111.3 with theme even" />
 
 
 <link rel="canonical" href="https://nhatduy129.github.io/post/ios/deep-understand-about-core-data/" />
@@ -34,30 +34,24 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
-<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+
+<link href="/sass/main.min.f92fd13721ddf72129410fd8250e73152cc6f2438082b6c0208dc24ee7c13fc4.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
 <meta property="og:title" content="Deep understand about Core Data" />
-<meta property="og:description" content="1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model." />
+<meta property="og:description" content="1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model. A managed object model is made up of entities, attributes and relationships An entity is a class definition in Core Data." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://nhatduy129.github.io/post/ios/deep-understand-about-core-data/" />
+<meta property="og:url" content="https://nhatduy129.github.io/post/ios/deep-understand-about-core-data/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-08-19T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-08-19T00:00:00+00:00" />
 <meta itemprop="name" content="Deep understand about Core Data">
-<meta itemprop="description" content="1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model.">
-
-
-<meta itemprop="datePublished" content="2020-08-19T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-08-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="2939">
-
-
-
-<meta itemprop="keywords" content="custom view,ios," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model. A managed object model is made up of entities, attributes and relationships An entity is a class definition in Core Data."><meta itemprop="datePublished" content="2020-08-19T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-08-19T00:00:00+00:00" />
+<meta itemprop="wordCount" content="2935">
+<meta itemprop="keywords" content="custom view,ios," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Deep understand about Core Data"/>
-<meta name="twitter:description" content="1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model."/>
+<meta name="twitter:description" content="1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model. A managed object model is made up of entities, attributes and relationships An entity is a class definition in Core Data."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -92,12 +86,21 @@
         <li class="mobile-menu-item">Categories</li>
       </a>
   </ul>
+
+  
+
+
 </nav>
+
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
         <div class="logo-wrapper">
   <a href="/" class="logo">Nhat Duy</a>
 </div>
+
+
+
+
 
 <nav class="site-navbar">
   <ul id="menu" class="menu">
@@ -112,6 +115,7 @@
       </li>
   </ul>
 </nav>
+
     </header>
 
     <main id="main" class="main">
@@ -135,59 +139,15 @@
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#1-introduction">1. Introduction</a></li>
-<li><a href="#2-data-types-in-core-data">2. Data types in Core Data</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#1-introduction">1. Introduction</a></li>
+    <li><a href="#2-data-types-in-core-data">2. Data types in Core Data</a></li>
+  </ul>
 </nav>
   </div>
 </div>
-
-
-<style>
-#share-buttons {display: inline-block; vertical-align: middle; }
-#share-buttons:after {content: ""; display: block; clear: both;}
-#share-buttons > div {
-position: relative;
-text-align: left; 
-height: 36px; 
-width: 32px; 
-float: left; 
-text-align: center;
-}
-#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
-#share-buttons > div:hover {cursor: pointer;}
-#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
-#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
-#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
-#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
-#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
-#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
-#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
-#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
-#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
-#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
-#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
-#share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
-#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
-</style>
-
-<span style="color: silver;">Share on: </span><div id="share-buttons">
-<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/nhatduy129.github.io\/post\/ios\/deep-understand-about-core-data\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
-<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=https:\/\/nhatduy129.github.io\/post\/ios\/deep-understand-about-core-data\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
-<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/nhatduy129.github.io\/post\/ios\/deep-understand-about-core-data\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
-
-<div class="gplus" title="Share this on Google Plus" onclick="window.open('https://plus.google.com/share?url=https:\/\/nhatduy129.github.io\/post\/ios\/deep-understand-about-core-data\/');"><svg viewBox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1437 913q0 208-87 370.5t-248 254-369 91.5q-149 0-285-58t-234-156-156-234-58-285 58-285 156-234 234-156 285-58q286 0 491 192l-199 191q-117-113-292-113-123 0-227.5 62t-165.5 168.5-61 232.5 61 232.5 165.5 168.5 227.5 62q83 0 152.5-23t114.5-57.5 78.5-78.5 49-83 21.5-74h-416v-252h692q12 63 12 122zm867-122v210h-209v209h-210v-209h-209v-210h209v-209h210v209h209z"/></svg></div>
-<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=https:\/\/nhatduy129.github.io\/post\/ios\/deep-understand-about-core-data\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
-</div>
     <div class="post-content">
-      
-
-<h2 id="1-introduction">1. Introduction</h2>
-
+      <h2 id="1-introduction">1. Introduction</h2>
 <p>Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background.
 Xcode comes with a powerful Data Model editor, which you can use to create your managed object model.
 A managed object model is made up of entities, attributes and relationships
@@ -196,9 +156,7 @@ An attribute is a piece of information attached to an entity.
 A relationship is a link between multiple entities.
 An NSManagedObject is a run-time representation of a Core Data entity. You can read and write to its attributes using Key-Value Coding.
 You need an NSManagedObjectContext to save() or fetch(_:) data to and from Core Data.</p>
-
 <h2 id="2-data-types-in-core-data">2. Data types in Core Data</h2>
-
 <p>String maps to String?
 Integer 16 maps to Int16
 Integer 32 maps to Int32
@@ -213,7 +171,6 @@ Along the way, you’ll learn about all the data types available in Core Data en
 Getting started
 Head over to the files accompanying this book and open the sample project named BowTies in the starter folder. Like HitList, this project uses Xcode’s Core Data-enabled template. Like before, this means Xcode generated its own ready-to-use Core Data stack located in AppDelegate.swift.
 Open Main.storyboard. Here you’ll find the sample project’s single-page UI:</p>
-
 <p>As you can probably guess, BowTies is a lightweight bow tie management application. You can switch between the different colors of bow ties you own — the app assumes one of each — using the topmost segmented control. Tap “R” for red, “O” for orange and so on.
 Tapping on a particular color pulls up an image of the tie and populates several labels on the screen with specific information about the tie. This includes:
 The name of the bow tie (so you can tell similarly-colored ones apart)
@@ -224,54 +181,42 @@ The Wear button on the bottom-left increments the number of times you’ve worn 
 Orange is not your color? Not to worry. The Rate button on the bottom-right changes a bow tie’s rating. This particular rating system uses a scale from 0 to 5, allowing for decimal values.
 That’s what the application is supposed to do in its final state. Open ViewController.swift to see what it currently does:
 import UIKit</p>
-
 <p>class ViewController: UIViewController {</p>
-
 <p>// MARK: - IBOutlets
-  @IBOutlet weak var segmentedControl: UISegmentedControl!
-  @IBOutlet weak var imageView: UIImageView!
-  @IBOutlet weak var nameLabel: UILabel!
-  @IBOutlet weak var ratingLabel: UILabel!
-  @IBOutlet weak var timesWornLabel: UILabel!
-  @IBOutlet weak var lastWornLabel: UILabel!
-  @IBOutlet weak var favoriteLabel: UILabel!
-  @IBOutlet weak var wearButton: UIButton!
-  @IBOutlet weak var rateButton: UIButton!</p>
-
+@IBOutlet weak var segmentedControl: UISegmentedControl!
+@IBOutlet weak var imageView: UIImageView!
+@IBOutlet weak var nameLabel: UILabel!
+@IBOutlet weak var ratingLabel: UILabel!
+@IBOutlet weak var timesWornLabel: UILabel!
+@IBOutlet weak var lastWornLabel: UILabel!
+@IBOutlet weak var favoriteLabel: UILabel!
+@IBOutlet weak var wearButton: UIButton!
+@IBOutlet weak var rateButton: UIButton!</p>
 <p>// MARK: - View Life Cycle
-  override func viewDidLoad() {
-    super.viewDidLoad()
-  }</p>
-
+override func viewDidLoad() {
+super.viewDidLoad()
+}</p>
 <p>// MARK: - IBActions
-  @IBAction func segmentedControl(
-    _ sender: UISegmentedControl) {</p>
-
+@IBAction func segmentedControl(
+_ sender: UISegmentedControl) {</p>
 <p>}</p>
-
 <p>@IBAction func wear(_ sender: UIButton) {</p>
-
 <p>}</p>
-
 <p>@IBAction func rate(_ sender: UIButton) {</p>
-
 <p>}
 }
 The bad news is in its current state, BowTies doesn’t do anything. The good news is you don’t need to do any Ctrl-dragging!
 The segmented control and all the labels on the user interface are already connected to IBOutlets in code. In addition, the segmented control, Wear and Rate button all have corresponding IBActions.
 It looks like you have everything you need to get started adding some Core Data — but wait, what are you going to display onscreen? There’s no input method to speak of, so the app must ship with sample data.That’s exactly right. BowTies includes a property list called SampleData.plist containing the information for seven sample ties, one for each color of the rainbow.</p>
-
 <p>Furthermore, the application’s asset catalog Assets.xcassets contains seven images corresponding to the seven bow ties in SampleData.plist.
 What you have to do now is take this sample data, store it in Core Data and use it to implement the bow tie management functionality.
 Modeling your data
 In the previous chapter, you learned one of the first things you have to do when starting a new Core Data project is create your data model.
 Open BowTies.xcdatamodeld and click Add Entity on the lower-left to create a new entity. Double-click on the new entity and change its name to BowTie, like so:</p>
-
 <p>In the previous chapter, you created a simple Person entity with a single string attribute to hold the person’s name. Core Data supports several other data types, and you’ll use most of them for the new BowTie entity.
 An attribute’s data type determines what kind of data you can store in it and how much space it will occupy on disk. In Core Data, an attribute’s data type begins as Undefined so you’ll have to change it to something else.
 If you remember from SampleData.plist, each bow tie has ten associated pieces of information. This means the BowTie entity will end up with at least ten attributes in the model editor.
 Select BowTie on the left-hand side and click the plus sign (+) under Attributes. Change the new attribute’s name to name and set its type to String:</p>
-
 <p>Repeat this process seven more times to add the following attributes:
 A Boolean named isFavorite
 A Date named lastWorn
@@ -283,7 +228,6 @@ A URI named url
 Most of these data types are common in everyday programming. If you haven’t heard of a UUID before, it’s short for universally unique identifier and it’s commonly used to uniquely identify information.
 URI stands for uniform resource identifier and it’s used to name and identify different resources like files and web pages. In fact, all URLs are URIs!
 When you’re finished, your Attributes section should look similar to the following:</p>
-
 <p>Don’t worry if the order of the attributes is different — all that matters is the attribute names and types are correct.
 Note: You may have noticed you have three options for the timesWorn integer attribute: Integer 16, Integer 32 or Integer 64.
 16, 32 and 64 refer to the number of bits representing the integer. This is important for two reasons: the number of bits reflects how much space an integer takes up on disk as well as how many values it can represent, also known as its range. Here are the ranges for the three types of integers:
@@ -292,11 +236,9 @@ Range for 32-bit integer: –2147483648 to 2147483647
 Range for 64-bit integer: –9223372036854775808 to 9223372036854775807
 How do you choose? The source of your data will dictate the best type of integer. You’re assuming your users really like bow ties, so a 32-bit integer should offer enough storage for a lifetime of bow tie wear.
 Each bow tie has an associated image. How will you store it in Core Data? Add one more attribute to the BowTie entity, name it photoData and change its data type to Binary Data:</p>
-
 <p>Core Data provides the option of storing arbitrary blobs of binary data directly in your data model. These could be anything from images, to PDF files, to anything that can be serialized into zeroes and ones.
 As you can imagine, this convenience can come at a steep cost. Storing a large amount of binary data in the same SQLite database as your other attributes will likely impact your app’s performance. That means a giant binary blob would be loaded into memory each time you access an entity, even if you only need to access its name!
 Luckily, Core Data anticipates this problem. With the photoData attribute selected, open the Attributes Inspector and check the Allows External Storage option.</p>
-
 <p>When you enable Allows External Storage, Core Data heuristically decides on a per-value basis if it should save the data directly in the database or store a URI that points to a separate file.
 Note: The Allows External Storage option is only available for the binary data attribute type. In addition, if you turn it on, you won’t be able to query Core Data using this attribute.
 In summary, besides Strings, Integers, Doubles, Booleans and Dates, Core Data can also save Binary Data, and it can do so efficiently and intelligently.
@@ -305,7 +247,6 @@ Still, there are many other types of data you may want to save. For example, wha
 With the options presented so far, you’d have to deconstruct the color into its individual components and save them as integers (e.g., red: 255, green: 101, blue: 155). Then, after fetching these components, you’d have to reconstitute your color at runtime.
 Alternatively, you could serialize the UIColor instance to Data and save it as binary data. Then again, you’d also have to “add water” afterward to reconstitute the binary data back to the UIColor object you wanted in the first place.
 Once again, Core Data has your back. If you took a close look at SampleData.plist, you probably noticed each bow tie has an associated color. Select the BowTie entity in the model editor and add a new attribute named tintColor of type Transformable.</p>
-
 <p>Transformable attributes persist data types that are not listed in Xcode’s Data Model Inspector. These include types that Apple ships in their frameworks such as UIColor and CLLocationCoordinate2D as well as your own types.
 Transformable attributes are extremely powerful and flexible but you need to do some work up front to tell iOS how to convert these types to and from Data. You have to meet three requirements to make an attribute Transformable:
 Add NSSecureCoding protocol conformance to the backing data type.
@@ -313,35 +254,23 @@ Create and register an NSSecureUnarchiveFromDataTransformer subclass.
 Associate the custom data transformer subclass with the Transformable attribute in the Data Model Editor.
 Since you’re dealing with UIColor, the good news is it already conforms to NSSecureCoding. Most data types in Apple’s frameworks do. Hooray!
 To fulfill the second requirement, click on File\New\File&hellip; and create a file from the Cocoa Touch template. Name the file ColorAttributeTransformer and make it a subclass of NSSecureUnarchiveFromDataTransformer. Click Next and save the file within your project.</p>
-
 <p>Next, replace the contents of the new file with the following implementation.
 import UIKit</p>
-
 <p>class ColorAttributeTransformer:
-  NSSecureUnarchiveFromDataTransformer {</p>
-
+NSSecureUnarchiveFromDataTransformer {</p>
 <p>//1
-  override static var allowedTopLevelClasses: [AnyClass] {
-    [UIColor.self]
-  }</p>
-
+override static var allowedTopLevelClasses: [AnyClass] {
+[UIColor.self]
+}</p>
 <p>//2
-  static func register() {
-    let className =
-      String(describing: ColorAttributeTransformer.self)
-    let name = NSValueTransformerName(className)</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">let transformer = ColorAttributeTransformer()
+static func register() {
+let className =
+String(describing: ColorAttributeTransformer.self)
+let name = NSValueTransformerName(className)</p>
+<pre><code>let transformer = ColorAttributeTransformer()
 ValueTransformer.setValueTransformer(
-  transformer, forName: name)</pre></td></tr></table>
-</div>
-</div>
+  transformer, forName: name)
+</code></pre>
 <p>}
 }
 Here’s what this code does:
@@ -349,23 +278,19 @@ Override allowedTopLevelClasses to return a list of classes this data transforme
 Like the name implies, the static function register() helps you register your subclass with ValueTransformer. But why do you need to do this? ValueTransformer maintains a key-value mapping where the key is a name you provide using NSValueTransformerName and the value is an instance of the corresponding transformer. You will need this mapping later in the Data Model Editor.
 Next, open AppDelegate.swift and replace application(<em>:didFinishLaunchingWithOptions:) with the following implementation:
 func application(</em> application: UIApplication,
-                 didFinishLaunchingWithOptions
-  launchOptions: [UIApplication.LaunchOptionsKey: Any]?)
-                 -&gt; Bool {</p>
-
+didFinishLaunchingWithOptions
+launchOptions: [UIApplication.LaunchOptionsKey: Any]?)
+-&gt; Bool {</p>
 <p>ColorAttributeTransformer.register()</p>
-
 <p>return true
 }
 Here you register your data transformer with the static method you implemented earlier. Registration can happen at any point before your application sets up the Core Data stack.
 Next, go back to BowTies.xcdatamodeld, select the tintColor attribute and open the Data Model Inspector. Change the value of Transformer to ColorAttributeTransformer and set the Custom Class to UIColor.</p>
-
 <p>Your data model is now complete. The BowTie entity has the ten attributes it needs to store all the information in SampleData.plist.
 Managed object subclasses
 In the sample project from the last chapter, you used key-value coding to access the attributes on the Person entity. It looked similar to the following:
 // Set the name
 person.setValue(aName, forKeyPath: &ldquo;name&rdquo;)</p>
-
 <p>// Get the name
 let name = person.value(forKeyPath: &ldquo;name&rdquo;)
 Even though you can do everything directly on NSManagedObject using key-value coding, that doesn’t mean you should!
@@ -375,50 +300,36 @@ The best alternative to key-value coding is to create NSManagedObject subclasses
 Xcode can generate the subclass for you either manually or automatically. Why would you want Xcode to do it for you? It can be a bit of a hassle having to generate these subclass files and have them clutter up your project if you never have to look at them or change them. Since Xcode 8, you can choose, on a per-entity basis, to have Xcode automatically generate and update these files, and store them in the derived data folder for your project.
 This setting is in the Codegen field of the Data Model inspector when using the model editor. Because you’re learning about Core Data in this book, you’re not going to use automatic code generation because it helps a lot to be able to easily see the files that have been generated for you.
 Make sure you still have BowTies.xcdatamodeld open, select the BowTie entity and open the Data Model inspector. Set the Codegen dropdown to Manual/None, as shown below:</p>
-
 <p>Note: Make sure you change this code generation setting before your first compilation, after you add the BowTie entity to the model.
 If you set the code generation setting after your first compilation, you’ll have two versions of the managed object subclass: one in derived data, and a second one in your source code. If this happens, you’ll run into problems when you try to compile again.
 Next, go to Editor\Create NSManagedObject Subclass…. Select the data model and then the BowTie entity in the next two dialog boxes. Click Create to save the file.
 Xcode generated two Swift files for you, one called BowTie+CoreDataClass.swift and a second called BowTie+CoreDataProperties.swift. Open BowTie+CoreDataClass.swift. It should look similar to the following:
 import Foundation
 import CoreData</p>
-
 <p>@objc(BowTie)
 public class BowTie: NSManagedObject {</p>
-
 <p>}
 Next, open BowTie+CoreDataProperties.swift. Your generated properties may not be in the same order as shown here, but the file should look similar to the following:
 import Foundation
 import CoreData</p>
-
 <p>extension BowTie {</p>
-
 <p>@nonobjc public class func fetchRequest()
-    -&gt; NSFetchRequest<BowTie> {</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">return NSFetchRequest&lt;BowTie&gt;(entityName: &#34;BowTie&#34;)</pre></td></tr></table>
-</div>
-</div>
+-&gt; NSFetchRequest<!-- raw HTML omitted --> {</p>
+<pre><code>return NSFetchRequest&lt;BowTie&gt;(entityName: &quot;BowTie&quot;)
+</code></pre>
 <p>}</p>
-
 <p>@NSManaged public var name: String?
-  @NSManaged public var isFavorite: Bool
-  @NSManaged public var lastWorn: Date?
-  @NSManaged public var rating: Double
-  @NSManaged public var searchKey: String?
-  @NSManaged public var timesWorn: Int32
-  @NSManaged public var id: UUID?
-  @NSManaged public var url: URL?
-  @NSManaged public var photoData: Data?
-  @NSManaged public var tintColor: UIColor?
+@NSManaged public var isFavorite: Bool
+@NSManaged public var lastWorn: Date?
+@NSManaged public var rating: Double
+@NSManaged public var searchKey: String?
+@NSManaged public var timesWorn: Int32
+@NSManaged public var id: UUID?
+@NSManaged public var url: URL?
+@NSManaged public var photoData: Data?
+@NSManaged public var tintColor: UIColor?
 }</p>
-
 <p>extension BowTie : Identifiable {</p>
-
 <p>}
 In object-oriented parlance, an object is a set of values along with a set of operations defined on those values. In this case, Xcode separates these two things into two separate files. The values (i.e. the properties that correspond to the BowTie attributes in your data model) are in BowTie+CoreDataProperties.swift, whereas the operations are in the currently empty BowTie+CoreDataClass.swift.
 Note: You might be wondering why two separate files are generated. It&rsquo;s quite common to add custom code to your NSManagedObject subclass. You wouldn&rsquo;t want to lose that code if you updated the BowTie entity in the model editor and went to Editor\Create NSManagedObject Subclass&hellip; again. Code creation is smart - if the BowTie+CoreDataClass.swift already exists, it will only create BowTie+CoreDataProperties.swift, keeping all your custom code. This is the primary reason why Core Data generates two files, instead of generating one as it used to do in previous versions of Xcode.
@@ -461,15 +372,13 @@ Transformable maps to NSObject?</p>
           <a href="/tags/ios/">ios</a>
           </div>
       <nav class="post-nav">
-        
-        <a class="prev" href="/post/books/how-to-talk-to-any-one/">
+        <a class="prev" href="/post/books/tu-thu-lanh-dao/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">How to talk to anyone</span>
+            <span class="prev-text nav-default">Tứ thư lãnh đạo</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-
-        <a class="next" href="/post/books/tu-thu-lanh-dao/">
-            <span class="next-text nav-default">Tứ thư lãnh đạo</span>
+        <a class="next" href="/post/books/how-to-talk-to-any-one/">
+            <span class="next-text nav-default">How to talk to anyone</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -491,7 +400,7 @@ Transformable maps to NSObject?</p>
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  
+
   
 
   
@@ -524,13 +433,10 @@ Transformable maps to NSObject?</p>
   <span class="copyright-year">
     &copy; 
     2017 - 
-    2021
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">Nhật Duy</span>
+    2023<span class="heart"><i class="iconfont icon-heart"></i></span><span>Nhật Duy</span>
   </span>
 </div>
+
     </footer>
 
     <div class="back-to-top" id="back-to-top">
@@ -541,7 +447,10 @@ Transformable maps to NSObject?</p>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
 
 
 

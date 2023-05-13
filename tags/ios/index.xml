@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ios on Nhat Duy&#39;s Blog</title>
@@ -6,18 +6,14 @@
     <description>Recent content in ios on Nhat Duy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://nhatduy129.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nhatduy129.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep understand about Core Data</title>
       <link>https://nhatduy129.github.io/post/ios/deep-understand-about-core-data/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://nhatduy129.github.io/post/ios/deep-understand-about-core-data/</guid>
-      <description>1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model.</description>
+      <description>1. Introduction Core Data provides on-disk persistence, which means your data will be accessible even after terminating your app or shutting down your device. This is different from in-memory persistence, which will only save your data as long as your app is in memory, either in the foreground or in the background. Xcode comes with a powerful Data Model editor, which you can use to create your managed object model. A managed object model is made up of entities, attributes and relationships An entity is a class definition in Core Data.</description>
     </item>
     
     <item>
@@ -35,7 +31,8 @@
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://nhatduy129.github.io/post/ios/create-a-custom-view-in-ios-everything-needs-to-know/</guid>
-      <description>1. Introduction In iOS programming, we usually need to create custom views. We create them not only for reused, in some cases it also help us move a lot of code to other class. In this article, I will share you guys everything we need to know when we create a custom view. What is difference between when we create with nib file and without it. OK, let go&amp;hellip;</description>
+      <description>1. Introduction In iOS programming, we usually need to create custom views. We create them not only for reused, in some cases it also help us move a lot of code to other class. In this article, I will share you guys everything we need to know when we create a custom view. What is difference between when we create with nib file and without it. OK, let go&amp;hellip;
+2. Create custom view without Nib.</description>
     </item>
     
     <item>
