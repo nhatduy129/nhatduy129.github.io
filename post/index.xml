@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Nhat Duy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nhatduy129.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nhatduy129.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python django threading, asyncio, ThreadPoolExecutor and solving race condition</title>
+      <link>https://nhatduy129.github.io/post/django/threading-asyncio-executor/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/post/django/threading-asyncio-executor/</guid>
+      <description>1. General Threading will run tasks in multiple threads in parallel. Each task will cost about 8Mb of memory (In actual, macOS or Ubuntu will optimize this memory usage and it usually less than that). Asyncio will run tasks in a single thread in parallel. Asyncio is more efficient than threading, cost much less memory. In asyncio, corotine concept is introduced. Each task will run in a corotine and all corotines will run in a single thread.</description>
+    </item>
+    
     <item>
       <title>Đừng bao giờ chia đôi lợi ích</title>
       <link>https://nhatduy129.github.io/post/books/dung-bao-gio-chia-doi-loi-ich/</link>

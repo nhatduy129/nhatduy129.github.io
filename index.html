@@ -121,6 +121,27 @@
           <section id="posts" class="posts">
     <article class="post">
   <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/django/threading-asyncio-executor/">Python django threading, asyncio, ThreadPoolExecutor and solving race condition</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2025-02-24 </span>
+      <div class="post-category">
+          <a href="/categories/python/"> python </a>
+          </div>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      1. General Threading will run tasks in multiple threads in parallel. Each task will cost about 8Mb of memory (In actual, macOS or Ubuntu will optimize this memory usage and it usually less than that). Asyncio will run tasks in a single thread in parallel. Asyncio is more efficient than threading, cost much less memory. In asyncio, corotine concept is introduced. Each task will run in a corotine and all corotines will run in a single thread.
+    </div>
+    <div class="read-more">
+      <a href="/post/django/threading-asyncio-executor/" class="read-more-link">Read more...</a>
+    </div>
+  </div>
+</article>
+
+    <article class="post">
+  <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/books/dung-bao-gio-chia-doi-loi-ich/">Đừng bao giờ chia đôi lợi ích</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2024-03-21 </span>
@@ -208,30 +229,6 @@ P226 đối với phân khúc nhà ở cao cấp, nên sử dụng các loại n
   </div>
 </article>
 
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/books/the-psychology-of-money/">The psychology of money</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2023-09-28 </span>
-      <div class="post-category">
-          <a href="/categories/book/"> book </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      1. Notes P5 there is no any evidences help us invest better
-P5 invest is not like others jobs, it cant be improved after fail
-P29 khi đánh giá ng khác thành công chủ yếu là do may mắn nghe có vẻ đố kỵ nhưng họ may mắn là sự thật. Khi đánh giá bản thân thành công là do may mắn thì lại khó chấp nhận.
-P41 khi có được thành công nào đó thì ta sẽ luôn có đc tham vọng nhiều hơn là sự thoả mãn.
-    </div>
-    <div class="read-more">
-      <a href="/post/books/the-psychology-of-money/" class="read-more-link">Read more...</a>
-    </div>
-  </div>
-</article>
-
     </section>
   
   <nav class="pagination">
@@ -272,7 +269,7 @@ P41 khi có được thành công nào đó thì ta sẽ luôn có đc tham vọ
   <span class="copyright-year">
     &copy; 
     2017 - 
-    2024<span class="heart"><i class="iconfont icon-heart"></i></span><span>Nhật Duy</span>
+    2025<span class="heart"><i class="iconfont icon-heart"></i></span><span>Nhật Duy</span>
   </span>
 </div>
 

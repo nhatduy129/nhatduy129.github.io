@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Nhat Duy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nhatduy129.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nhatduy129.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>asyncio</title>
+      <link>https://nhatduy129.github.io/tags/asyncio/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/asyncio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>django</title>
+      <link>https://nhatduy129.github.io/tags/django/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://nhatduy129.github.io/tags/python/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>threading</title>
+      <link>https://nhatduy129.github.io/tags/threading/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/threading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ThreadPoolExecutor</title>
+      <link>https://nhatduy129.github.io/tags/threadpoolexecutor/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhatduy129.github.io/tags/threadpoolexecutor/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>business</title>
       <link>https://nhatduy129.github.io/tags/business/</link>
